@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Glazed Content Header Examples feature.
+ */
+
+include_once 'glazed_content_header_examples.features.inc';

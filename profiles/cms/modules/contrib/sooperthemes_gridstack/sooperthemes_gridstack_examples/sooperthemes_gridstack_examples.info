@@ -1,0 +1,16 @@
+name = SooperThemes GridStack Example Views
+description = SooperThemes GridStack Example Views using "Glazed Drupal CMS Blog" Content Type
+package = Glazed Premium Theme
+core = 7.x
+version = 7.x-1.0
+
+dependencies[] = views
+dependencies[] = sooperthemes_gridstack
+dependencies[] = cms_blog
+
+; Information added by Drupal.org packaging script on 2017-12-15
+version = "7.x-1.2"
+core = "7.x"
+project = "sooperthemes_gridstack"
+datestamp = "1513337896"
+

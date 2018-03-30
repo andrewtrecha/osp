@@ -1,0 +1,108 @@
+/* Subtheme Overrides Go Here */
+body {
+    font-size: 14px;
+}
+
+.messages{
+    top: 80px;
+    position: relative;
+    z-index: 9999;
+}
+
+.body--glazed-nav-desktop .glazed-header--top.glazed-header--overlay {
+    top: 0;
+}
+.body--glazed-nav-desktop.body--glazed-header-overlay .page-title-full-width-container {
+    padding-top: 90px !important;
+}
+
+/* Typography Overrides */
+#block-system-user-menu h2.block-title {
+    float: left;
+}
+
+/* Main Nav */
+ #navbar.glazed-header--hover-opacity .menu > li.active > a {
+     border-bottom: 3px solid #25e0fc;
+     background-color: rgba(255,255,255,.1);
+ }
+
+.btn-primary:hover {
+    color: #fff !important;
+}
+/* User Nav/Menu */
+.list-inline > li {
+    display: inline-block !important;
+}
+
+.highlighted-container {
+    position: relative;
+    margin-top: -30px;
+    margin-bottom: 15px;
+    background: #f5f5f5;
+}
+
+/* Homepage */
+.html .glazed-util-overlay-primary::after {
+    opacity: .6 !important;
+    background-color: #26dff9 !important;
+}
+
+#block-views-bios-cms-facilitator-bios-block {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#block-views-bios-cms-facilitator-bios-block h2.block-title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    #block-block-2 .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #block-block-2 h2 {
+        margin-left: 15px;
+    }
+}
+
+/* Homepage End */
+
+/* Facilitator Bios */
+.view-bios-cms .field-facilitator-location,
+.view-bios-cms .field-facilitator-district,
+.view-bios-cms span {
+    display: inline-block;
+}
+
+body:not(.page-facilitators) .node-bio .field-title {
+    display: none;
+}
+/* Utility */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    img[style="float: right;"],
+    img[style="float: left;"],
+    img.pull-right,
+    img.pull-left {
+        display: block;
+        float: none !important;
+        margin: 0 auto 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    img[style="float: right;"] {
+        float: right;
+        margin: 0 0 20px 20px;
+    }
+    img[style="float: left;"] {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+}
+/* Utility - End */
+#block-system-user-menu h2 {
+    display: block !important;
+    float: none !important;
+}

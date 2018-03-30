@@ -1,0 +1,18 @@
+name = SooperThemes GridStack
+description = SooperThemes GridStack Views
+package = Glazed Premium Theme
+core = 7.x
+version = 7.x-1.0
+project = sooperthemes_gridstack
+
+dependencies[] = views
+files[] = sooperthemes_gridstack.views.inc
+files[] = plugins/sooperthemes_gridstack/sooperthemes_gridstack_gridstack_plugin_style.inc
+files[] = plugins/sooperthemes_gridstack/sooperthemes_gridstack_gridstack_plugin_rows.inc
+
+; Information added by Drupal.org packaging script on 2017-12-15
+version = "7.x-1.2"
+core = "7.x"
+project = "sooperthemes_gridstack"
+datestamp = "1513337896"
+
